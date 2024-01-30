@@ -5,7 +5,7 @@ import { MenuIcon } from "lucide-react";
 
 export default function Header() {
     return (
-        <Card>
+        <Card className="rounded-none">
             <CardContent className="p-5 py-8 justify-between flex flex-row items-center">
                 <Image src='/Logo.png' alt="SW Barber" height={22} width={120} />
                 
