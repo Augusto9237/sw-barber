@@ -8,8 +8,7 @@ interface ServiceItemProps {
 }
 
 export default function ServiceItem({ service }: ServiceItemProps) {
-  console.log(service.imageUrl)
-
+  
   return (
     <Card>
       <CardContent className="p-3">
