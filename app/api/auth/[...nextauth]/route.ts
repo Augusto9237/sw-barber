@@ -7,8 +7,8 @@ import GoogleProvider from "next-auth/providers/google";
 const handler = NextAuth({
     adapter: PrismaAdapter(db) as Adapter,
     providers: [GoogleProvider({
-        clientId: process.env.GOOGLE_CILENT_ID as string,
-        clientSecret: process.env.GOOGLE_CILENT_SECRET as string,
+        clientId: "703229671135-32gvk9vnqf2r85m1t3tdk4t5r053940p.apps.googleusercontent.com",
+        clientSecret: "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"
     })]
 });
 
