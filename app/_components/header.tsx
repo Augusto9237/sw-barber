@@ -9,7 +9,6 @@ import SideMenu from "./side-menu";
 
 export default function Header() {
 
-
     return (
         <Card className="rounded-none">
             <CardContent className="p-5 py-8 justify-between flex flex-row items-center">
