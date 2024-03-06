@@ -25,7 +25,7 @@ export default function SideMenu() {
                     </SheetTitle>
                 </SheetHeader>
 
-                {status === "authenticated" && (
+                {data?.user && status === "authenticated" && (
                     <div className="flex justify-between items-center px-5 py-6">
                         <div className="flex items-center gap-3">
                             <Avatar>
